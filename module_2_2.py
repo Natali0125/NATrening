@@ -1,6 +1,6 @@
-first = float(input('Введите первое целое число: '))
-second = float(input('Введите второе целое число: '))
-third = float(input('Введите третье целое число: '))
+first = int(input('Введите первое целое число: '))
+second = int(input('Введите второе целое число: '))
+third = int(input('Введите третье целое число: '))
 if first == second == third:
     print(3)
 elif first == second or first == third or second == third:
