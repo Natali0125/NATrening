@@ -1,6 +1,4 @@
 # Самостоятельная работа по уроку "Произвольное число параметров"
-# черновик домашнего задания
-#
 def single_root_words(root_word = 'rICh', *other_words):
     print()
     same_words = []
