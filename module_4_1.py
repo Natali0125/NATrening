@@ -1,5 +1,5 @@
-from fake_math import divide as fdiv
-from true_math import divide as thdiv
+from modul4_1.fake_math import divide as fdiv
+from modul4_1.true_math import divide as thdiv
 
 result_1 = fdiv(69, 3)
 result_2 = fdiv(3,0)
