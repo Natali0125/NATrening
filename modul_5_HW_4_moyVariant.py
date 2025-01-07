@@ -3,7 +3,7 @@ class House:
 
     def __new__(cls, *args, **kwargs):
         cls.houses_history.append(args[0])
-        print(cls.houses_history)
+        #print(cls.houses_history)
         #cls.houses_history = super().__new__(cls)
         return super().__new__(cls)
 
@@ -87,27 +87,27 @@ class House:
 
 h1 = House('ЖК Эльбрус', 10)
 
-#print(House.houses_history) # Если раскомментировать  строку, то список
-#                                 # houses_history будет выводится в консоль 2 раза.   непонятно почему ????
+print(House.houses_history)
 
 h2 = House('ЖК Акация', 20)
 
-#print(House.houses_history)
+print(House.houses_history)
 
 h3 = House('ЖК Матрёшки', 20)
 
-#print(House.houses_history)
-
-
-
+print(House.houses_history)
 # Удаление объектов
 
 del h2
 
 del h3
 
-
-
 print(House.houses_history)
+#
+# h11 = House('Favorskogo', 30)
+# print(House.houses_history)
+# h21 = House('Novouglichskoe shosse', 52)
+# print('последняя строка', House.houses_history)
+
 
 
