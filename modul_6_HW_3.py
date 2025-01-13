@@ -29,7 +29,7 @@ class Animal:
         if self._DEGREE_OF_DANGER >= 5:
             print("Be careful, i'm attacking you 0_0")
 
-    # методьвыводит строку со звуком sound
+    # метод выводит строку со звуком sound
     def speak(self):
         sound = ''
         self.sound = sound
