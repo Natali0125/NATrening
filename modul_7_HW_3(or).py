@@ -16,7 +16,7 @@ def custom_write(file_name, strings):
     list_tup = []
     tup = ()
 
-    file = open(file_name, 'a', encoding = 'utf-8')
+    file = open(file_name, 'w', encoding = 'utf-8')
     for i in strings:
         poz_curs = file.tell()
         file.write(i.__str__() + '\n')
